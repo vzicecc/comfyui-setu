@@ -71,7 +71,7 @@ class SetuNode:
         self.image_counter = 0
 
         # Define the directories
-        save_dir = os.path.join(os.getcwd(), "custom_nodes", "comfyui_setu", "image-save")
+        save_dir = os.path.join(os.getcwd(), "custom_nodes", "comfyui-setu", "image-save")
         backup_dir = os.path.join(save_dir, "save")
 
         # Ensure the backup directory exists
