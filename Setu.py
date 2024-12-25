@@ -33,7 +33,7 @@ class SetuNode:
         return {
             "required": {
                 "r18": (["0", "1", "2"], {"default": "0"}),
-                "tag": ("STRING", {"default": "", "multiline": True}),
+                "tag": ("STRING", {"default": "萝莉|少女", "multiline": True}), 
                 "num": ("INT", {"default": 1, "min": 1, "max": 5, "step": 1}),
                 "ai": (["0", "1", "2"], {"default": "0"}),
                 "gif": (["0", "1"], {"default": "0"}),
